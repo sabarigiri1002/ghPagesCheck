@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    body{
+      height: 100%;
+    }
+    .main{
+      min-height: calc(100vh - 260px);
+      border: 1px solid red;
+    }
+    button{
+      background-color: greenyellow;
+      color: indianred;
+      border-radius: 10px;
+      height: 48px;
+      display: block;
+      margin: 0 auto;
+      border-color: greenyellow;
+      box-shadow: 3px 3px 5px #dadada;
+    }
+    button:active{
+      box-shadow: none;
+    }
+    footer{
+      background-color: gray;
+      border: 1px solid #000000;
+      padding: 20px;
+      display: flex;
+      height: 200px;
+      color: #ffffff;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    footer .col{
+      width: 30vw;
+    }
+    footer .col h3{
+      font-style: italic;
+    }
+
+    footer a{
+      color: #ffffff;
+      border-bottom: 1px dashed #ffffff;
+      text-decoration: none;
+    }
+    
+
+  </style>
+</head>
+<body>
+  <div class="main">
+      <button>Sample Button</button>
+  </div>
+  <footer>
+    <div class="col col-3">
+      <h3>Column heading 1</h3>
+      <p>Samlpe Text and content for Column heading 1</p>
+      <a href="#">Link</a>
+    </div>
+    <div class="col col-3">
+      <h3>Column heading 2</h3>
+      <p>Samlpe Text and content for Column heading 1</p>
+      <a href="#">Link</a>
+    </div>
+    <div class="col col-3">
+      <h3>Column heading 3</h3>
+      <p>Samlpe Text and content for Column heading 1</p>
+      <a href="#">Link</a>
+    </div>
+  </footer>
+</body>
+</html>
